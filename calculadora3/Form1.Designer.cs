@@ -67,6 +67,7 @@
             this.txtResultado.MaxLength = 14;
             this.txtResultado.Multiline = true;
             this.txtResultado.Name = "txtResultado";
+            this.txtResultado.ReadOnly = true;
             this.txtResultado.Size = new System.Drawing.Size(258, 42);
             this.txtResultado.TabIndex = 0;
             this.txtResultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
