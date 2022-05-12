@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace calculadora3
@@ -28,18 +21,12 @@ namespace calculadora3
                 txtResultado.Text = "";
 
             txtResultado.Text += boton.Text;
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-
-        }
+        }               
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
-
         private void Form1_Load_1(object sender, EventArgs e)
         {
 
@@ -141,15 +128,8 @@ namespace calculadora3
             }
             else if (Operador == '%')
             {
-
-                // Numero1 = Math.Round((Numero1 * Numero2) / 100);
-
-                //Numero1 = Numero1 + ((Numero1 * Numero2) / 100);
-
-                // txtResultado.Text = Numero1.ToString();
-
                 Numero1 = Math.Round (Numero1);
-                txtResultado.Text = (Numero1 / 100).ToString();                
+                txtResultado.Text = (Numero1 / 100).ToString();     
 
             }
             else
